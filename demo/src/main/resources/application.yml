@@ -8,3 +8,11 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
+
+logging:
+  level:
+    root: WARN
+    org:
+      springframework:
+        web: DEBUG
+      hibernate: ERROR
